@@ -3,7 +3,7 @@
 using namespace std;
 
 double y(double x) { return 2.4 * x * x * x + 4.4 * x * x - 2 * x + 1.5; }
-double yprime(double x) {return 3*2.4*x*x+8.8*x-2;}
+double yprime(double x) { return 3 * 2.4 * x * x + 8.8 * x - 2; }
 
 double secantmethod(double x0, double x1, double tolerance) {
   double x = x1;
@@ -15,13 +15,33 @@ double secantmethod(double x0, double x1, double tolerance) {
   return x;
 }
 
-double newtonRaphson(double x0, double tolerance){
-    double x=x0;
-    while(fabs(y(x))>tolerance){
-      x=x0-(y(x0)/yprime(x0));
-      x0=x;
-    }
+double newtonRaphson(double x0, double tolerance) {
+  double x = x0;
+  while (fabs(y(x)) > tolerance) {
+    x = x0 - (y(x0) / yprime(x0));
+    x0 = x;
+  }
   return x;
+}
+
+double bisection(double a, double b, double tolerance) {
+  double x = a;
+  if (y(a) * y(b) >= 0) {
+    cout << "f(" << a << ") and f(" << b
+         << ") have same signs, hence this method is not applicable\nPlease "
+            "use the other 2 methods or change starting values";
+    return -1;
+  } else {
+    while (fabs(y(x)) > tolerance) {
+      x = (a + b) / 2;
+      if (y(x) * y(a) < 0) {
+        b = x;
+      } else {
+        a = x;
+      }
+    }
+    return x;
+  }
 }
 
 int main() {
@@ -39,12 +59,20 @@ int main() {
     cout << "Solution of f(x) is x = " << secantmethod(x0, x1, tolerance);
     return 0;
   }
-  if(choice==2){
+  if (choice == 2) {
     double x0, tolerance;
-    cout<< "Enter inital guess for the root: ";
+    cout << "Enter inital guess for the root: ";
     cin >> x0;
     cout << "Enter tolerance for the solution: ";
     cin >> tolerance;
     cout << "The solution of f(x) is x = " << newtonRaphson(x0, tolerance);
+  }
+  if (choice == 3) {
+    double a, b, tolerance;
+    cout << "Enter the two starting x values: ";
+    cin >> a >> b;
+    cout << "Enter tolerance: ";
+    cin >> tolerance;
+    cout << "Solution of f(x) is x = " << bisection(a, b, tolerance);
   }
 }

@@ -125,16 +125,16 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 CMAKE_PROJECT_NAME:STATIC=imgui_sfml
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=3.0.0
+CMAKE_PROJECT_VERSION:STATIC=2.6
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MAJOR:STATIC=3
+CMAKE_PROJECT_VERSION_MAJOR:STATIC=2
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=0
+CMAKE_PROJECT_VERSION_MINOR:STATIC=6
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=0
+CMAKE_PROJECT_VERSION_PATCH:STATIC=
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
@@ -205,10 +205,10 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //No help, variable specified on the command line.
-IMGUI_DIR:UNINITIALIZED=../externals/imgui/
+IMGUI_DIR:UNINITIALIZED=/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui
 
-//Path to a file.
-IMGUI_INCLUDE_DIR:PATH=IMGUI_INCLUDE_DIR-NOTFOUND
+//Build ImGui_SFML examples
+IMGUI_SFML_BUILD_EXAMPLES:BOOL=OFF
 
 //Path to a directory containing user ImGui config
 IMGUI_SFML_CONFIG_DIR:PATH=/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui-sfml
@@ -219,20 +219,20 @@ IMGUI_SFML_CONFIG_INSTALL_DIR:PATH=
 //Name of a custom user ImGui config header
 IMGUI_SFML_CONFIG_NAME:STRING=imconfig-SFML.h
 
-//Disable obsolete ImGui functions
-IMGUI_SFML_DISABLE_OBSOLETE_FUNCTIONS:BOOL=OFF
-
-//Enable compiler warnings
-IMGUI_SFML_ENABLE_WARNINGS:BOOL=OFF
-
 //Use find_package to find SFML
 IMGUI_SFML_FIND_SFML:BOOL=ON
+
+//Build imgui_demo.cpp
+IMGUI_SFML_IMGUI_DEMO:BOOL=OFF
 
 //Use default imconfig-SFML.h
 IMGUI_SFML_USE_DEFAULT_CONFIG:BOOL=ON
 
-//The directory containing a CMake configuration file for SFML.
-SFML_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/SFML
+//No help, variable specified on the command line.
+SFML_DIR:UNINITIALIZED=/usr/lib/x86_64-linux-gnu/cmake/SFML
+
+//No help, variable specified on the command line.
+SFML_STATIC_LIBRARIES:UNINITIALIZED=FALSE
 
 //Value Computed by CMake
 imgui_sfml_BINARY_DIR:STATIC=/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/build

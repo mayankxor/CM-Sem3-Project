@@ -1,0 +1,3 @@
+/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/build/CMakeFiles/ImGuiPlotDemo.dir
+/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/build/CMakeFiles/edit_cache.dir
+/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/build/CMakeFiles/rebuild_cache.dir

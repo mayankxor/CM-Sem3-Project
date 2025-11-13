@@ -1,0 +1,9 @@
+[submodule "rootProject/externals/imgui"]
+	path = rootProject/externals/imgui
+	url = https://github.com/ocornut/imgui
+[submodule "rootProject/externals/implot"]
+	path = rootProject/externals/implot
+	url = https://github.com/epezent/implot
+[submodule "rootProject/externals/SDL"]
+	path = rootProject/externals/SDL
+	url = https://github.com/libsdl-org/SDL

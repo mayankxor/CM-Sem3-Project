@@ -1,0 +1,68 @@
+[
+{
+  "directory": "/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/build",
+  "command": "/usr/bin/c++  -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/backends -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/implot -isystem /usr/include/SDL2 -std=gnu++20 -o CMakeFiles/ImGuiPlotDemo.dir/main.cpp.o -c /home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/main.cpp",
+  "file": "/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/main.cpp",
+  "output": "CMakeFiles/ImGuiPlotDemo.dir/main.cpp.o"
+},
+{
+  "directory": "/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/build",
+  "command": "/usr/bin/c++  -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/backends -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/implot -isystem /usr/include/SDL2 -std=gnu++20 -o CMakeFiles/ImGuiPlotDemo.dir/externals/imgui/imgui.cpp.o -c /home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/imgui.cpp",
+  "file": "/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/imgui.cpp",
+  "output": "CMakeFiles/ImGuiPlotDemo.dir/externals/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/build",
+  "command": "/usr/bin/c++  -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/backends -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/implot -isystem /usr/include/SDL2 -std=gnu++20 -o CMakeFiles/ImGuiPlotDemo.dir/externals/imgui/imgui_draw.cpp.o -c /home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/imgui_draw.cpp",
+  "file": "/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/ImGuiPlotDemo.dir/externals/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/build",
+  "command": "/usr/bin/c++  -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/backends -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/implot -isystem /usr/include/SDL2 -std=gnu++20 -o CMakeFiles/ImGuiPlotDemo.dir/externals/imgui/imgui_widgets.cpp.o -c /home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/imgui_widgets.cpp",
+  "file": "/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/ImGuiPlotDemo.dir/externals/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/build",
+  "command": "/usr/bin/c++  -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/backends -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/implot -isystem /usr/include/SDL2 -std=gnu++20 -o CMakeFiles/ImGuiPlotDemo.dir/externals/imgui/imgui_tables.cpp.o -c /home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/imgui_tables.cpp",
+  "file": "/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/imgui_tables.cpp",
+  "output": "CMakeFiles/ImGuiPlotDemo.dir/externals/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/build",
+  "command": "/usr/bin/c++  -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/backends -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/implot -isystem /usr/include/SDL2 -std=gnu++20 -o CMakeFiles/ImGuiPlotDemo.dir/externals/imgui/imgui_demo.cpp.o -c /home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/imgui_demo.cpp",
+  "file": "/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/imgui_demo.cpp",
+  "output": "CMakeFiles/ImGuiPlotDemo.dir/externals/imgui/imgui_demo.cpp.o"
+},
+{
+  "directory": "/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/build",
+  "command": "/usr/bin/c++  -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/backends -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/implot -isystem /usr/include/SDL2 -std=gnu++20 -o CMakeFiles/ImGuiPlotDemo.dir/externals/imgui/backends/imgui_impl_sdl2.cpp.o -c /home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/backends/imgui_impl_sdl2.cpp",
+  "file": "/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/backends/imgui_impl_sdl2.cpp",
+  "output": "CMakeFiles/ImGuiPlotDemo.dir/externals/imgui/backends/imgui_impl_sdl2.cpp.o"
+},
+{
+  "directory": "/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/build",
+  "command": "/usr/bin/c++  -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/backends -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/implot -isystem /usr/include/SDL2 -std=gnu++20 -o CMakeFiles/ImGuiPlotDemo.dir/externals/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/backends/imgui_impl_opengl3.cpp",
+  "file": "/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/backends/imgui_impl_opengl3.cpp",
+  "output": "CMakeFiles/ImGuiPlotDemo.dir/externals/imgui/backends/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/build",
+  "command": "/usr/bin/c++  -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/backends -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/implot -isystem /usr/include/SDL2 -std=gnu++20 -o CMakeFiles/ImGuiPlotDemo.dir/externals/implot/implot.cpp.o -c /home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/implot/implot.cpp",
+  "file": "/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/implot/implot.cpp",
+  "output": "CMakeFiles/ImGuiPlotDemo.dir/externals/implot/implot.cpp.o"
+},
+{
+  "directory": "/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/build",
+  "command": "/usr/bin/c++  -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/backends -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/implot -isystem /usr/include/SDL2 -std=gnu++20 -o CMakeFiles/ImGuiPlotDemo.dir/externals/implot/implot_items.cpp.o -c /home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/implot/implot_items.cpp",
+  "file": "/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/implot/implot_items.cpp",
+  "output": "CMakeFiles/ImGuiPlotDemo.dir/externals/implot/implot_items.cpp.o"
+},
+{
+  "directory": "/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/build",
+  "command": "/usr/bin/c++  -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/imgui/backends -I/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/implot -isystem /usr/include/SDL2 -std=gnu++20 -o CMakeFiles/ImGuiPlotDemo.dir/externals/implot/implot_demo.cpp.o -c /home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/implot/implot_demo.cpp",
+  "file": "/home/xor/StudyOS/College/Sem3/ComputationalMathematics/programs/rootProject/externals/implot/implot_demo.cpp",
+  "output": "CMakeFiles/ImGuiPlotDemo.dir/externals/implot/implot_demo.cpp.o"
+}
+]

@@ -120,7 +120,7 @@ int main(int, char**) {
             if (std::isnan(result))
                 ImGui::TextColored(ImVec4(1, 0, 0, 1), "Invalid interval or computation failed.");
             else
-                ImGui::Text("Root ≈ %.8f", result);
+                ImGui::Text("Root = %.8f", result);
         }
 
         ImGui::Separator();
